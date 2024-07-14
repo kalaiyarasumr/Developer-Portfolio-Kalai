@@ -1,0 +1,47 @@
+.skillbar {
+    border-radius: 15px !important;
+    margin: 25px 0;
+}
+
+.skillbar-title {
+    border-radius: 15px 0 0 15px !important;
+}
+
+.skillbar-bar {
+    border-radius: 0 15px 15px 0 !important;
+}
+
+.skillbar-percent {
+    color:#00FFFF !important;
+}
+/* About.css */
+/* About.css */
+.profile-card {
+    display: inline-block;
+    background-color: 212121; /* Adjust background color */
+    border-radius: 60% 60% 60% 60%; /* Adjust border radius to curve only the bottom corners */
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 10px;
+    margin-left: 150px; /* Add margin to the left to move the card to the right */
+    margin-bottom: 100px;
+  }
+  
+  
+  .profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px  #00FFFF ;
+  }
+  
+  
+  .profile-image {
+    width: 400px; /* Adjust to your desired size */
+    height: 400px; /* Adjust to your desired size */
+    background-image: url('/src/assets/kalai_image_-removebg-preview.png'); /* Update with the correct path */
+    background-size: cover;
+    background-position: center;
+    border-radius: 4000%; /* Make it circular */
+    margin-top: 3px;
+  }
+  
